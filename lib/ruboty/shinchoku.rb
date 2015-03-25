@@ -11,7 +11,8 @@ module Ruboty
 
       def shinchoku(message)
         open(DATA_URL) do |io|
-          if io.read =~ %r{<img src="(http://.*\.media\.tumblr\.com/.*)" alt=""/>}
+          data = io.read
+          if data =~ %r{<img[^>]*src="(http://.*\.media\.tumblr\.com/[^"]*)"[^>]*}
             message.reply $1
           end
         end
