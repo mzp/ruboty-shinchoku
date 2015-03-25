@@ -2,6 +2,8 @@
 
 A [Ruboty](https://github.com/r7kamura/ruboty) plugin to show [進捗どうですか?](http://shinchokudodesuka.tumblr.com/) image.
 
+![](https://github.com/mzp/ruboty-shinchoku/raw/master/ss.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
